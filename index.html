@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STrade</title>
+     <!-- Get bootstrap  -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+      <!-- font awesome cdn link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <!-- custome css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- owl carousel  -->
+   <link rel="stylesheet" href="OwlCarousel/assets/owl.carousel.min.css">
+   <link rel="stylesheet" href="OwlCarousel/assets/owl.theme.default.min.css">
+<body>
+    <!-- header section starts  -->
+    <header>
+            
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="index.html" class="logo"><img src="./images/logo.png" alt="" width="120px"></a>
+        <nav class="navbar">
+            <a href="#product">Products</a>
+            <a href="#solution">Solution</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        
+        <form action="" class="search-bar-container">
+            <input type="text" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search" ></label>
+        </form>
+    </header>
+
+    <!-- header section ends  -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+     <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>forgot password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+     </form>
+    </div>
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+       
+
+        <div class="swiper home-slider">
+           
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <div class="content">
+                        <h3>Trade</h3>
+                        <p>ERP system for automating&nbsp;the work of sales agents, sales, accounting, warehouse, logistics for the FMCG sector and more!</p>
+                        <a href="#" class="btn" id="demo-btn">Demo version</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/Trade.webp" alt="">
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="content">
+                        <h3>Pharm</h3>
+                        <p>ERP system for automating&nbsp;the work of sales agents, sales, accounting, warehouse, logistics for the FMCG sector and more!</p>
+                        <a href="#" class="btn" id="demo-btn">Demo version</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/pharm.jpg" alt="">
+                    </div>
+
+                </div>
+
+
+                <div class="swiper-slide slide">
+
+                    <div class="content">
+                        <h3>Medical</h3>
+                        <p>ERP system for automating&nbsp;the work of sales agents, sales, accounting, warehouse, logistics for the FMCG sector and more!</p>
+                        <a href="#" class="btn" id="demo-btn">Demo version</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/medical.webp" alt="">
+                    </div>
+
+                </div>
+
+
+                <div class="swiper-slide slide">
+
+                    <div class="content">
+                        <h3>HR</h3>
+                        <p>ERP system for automating&nbsp;the work of sales agents, sales, accounting, warehouse, logistics for the FMCG sector and more!</p>
+                        <a href="#" class="btn" id="demo-btn">Demo version</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/hr.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+          </section>
+
+        <!-- products section starts -->
+            
+        <section class="products" id="products">
+
+            <h1 class="heading"> <span>Products</span></h1>
+
+            <div class="swiper products-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide" >
+
+                         <img src="images/4.jpg" alt="image">
+                         <h3>STrade <span>Trade</span></h3>
+                         <div class="btnn" data-product="product-1">Read More</div>
+
+                    </div>
+
+                    <div class="swiper-slide slide" >
+
+                        <img src="images/7.png" alt="image">
+                        <h3>STrade <span>Pharm</span></h3>
+                        <div class="btnn" data-product="product-2">Read More</div>
+
+                   </div>
+
+                   <div class="swiper-slide slide" >
+
+                    <img src="images/7.png" alt="image">
+                    <h3>STrade <span>medical</span></h3>
+                    <div class="btnn" data-product="product-3">Read More</div>
+
+               </div>
+
+               <div class="swiper-slide slide" >
+
+                <img src="images/7.png" alt="image">
+                <h3>STrade <span>hr</span></h3>
+                <div class="btnn" data-product="product-4">Read More</div>
+
+           </div>
+
+           
+
+   </div>
+               
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- products section ends  -->
+          
+        <!-- products preview section starts  -->
+
+        <section class="products-preview-container">
+
+            <div class="product-preview" data-target="product-1">
+                <div  class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/4.jpg" alt="">
+                </div>
+                
+                <div class="content">
+                    <h3>Trade</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam asperiores officia totam at tempora autem perspiciatis ullam qui ducimus distinctio.</p>
+
+                    <a href="#" class="btnnn">Demo Version</a>
+                    
+                </div>
+
+
+            </div>
+
+            <div class="product-preview" data-target="product-2">
+                <div  class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/7.png" alt="">
+                </div>
+                
+                <div class="content">
+                    <h3>Pharm</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam asperiores officia totam at tempora autem perspiciatis ullam qui ducimus distinctio.</p>
+
+                    <a href="#" class="btnnn">Demo Version</a>
+                    
+                </div>
+
+
+            </div>
+
+            <div class="product-preview" data-target="product-3">
+                <div  class="fas fa-times"></div>
+
+                <div class="image">
+                    <img src="images/4.jpg" alt="">
+                </div>
+                
+                <div class="content">
+                    <h3>Medical</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam asperiores officia totam at tempora autem perspiciatis ullam qui ducimus distinctio.</p>
+
+                    <a href="#" class="btnnn">Demo Version</a>
+                    
+                </div>
+
+
+            </div>
+
+            <div class="product-preview" data-target="product-4">
+                <div  class="fas fa-times"></div>
+
+                <div class="image">
+                    <img src="images/7.png" alt="">
+                </div>
+                
+                <div class="content">
+                    <h3>HR</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam asperiores officia totam at tempora autem perspiciatis ullam qui ducimus distinctio.</p>
+
+                    <a href="#" class="btnnn">Demo Version</a>
+                    
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- products preview section ends  -->
+
+        <!-- Solution section -->
+
+        <section class="solution" id="solution">
+
+            <h1 class="heading"><span>capabilities</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/1.png" width="100%" alt="">
+                    <h3>Sales department under control</h3>
+                    <p>Sales department under control Lorem ipsum dolor sit amet.</p>
+
+                  
+                </div>
+
+                <div class="box">
+                    <img src="images/2.png" width="100%" alt="">
+                    <h3>Work where it's convenient</h3>
+                    <p>Manage your business from anywhere in the world using your smartphone or tablet.</p>
+
+                   
+                </div>
+
+                <div class="box">
+                    <img src="images/3.png" width="100%" alt="">
+                    <h3>Latest reports online</h3>
+                    <p>Forget about Exсel. Get detailed reports in two clicks.</p>
+
+                  
+                </div>
+                <div class="box">
+                    <img src="images/4.jpg" width="100%" alt="">
+                    <h3>Latest reports online</h3>
+                    <p>Forget about Exсel. Get detailed reports in two clicks.</p>
+
+                  
+                </div>
+                <div class="box">
+                    <img src="images/5.jpg" width="100%" alt="">
+                    <h3>Latest reports online</h3>
+                    <p>Forget about Exсel. Get detailed reports in two clicks.</p>
+
+                  
+                </div>
+                <div class="box">
+                    <img src="images/6.jfif" width="100%" alt="">
+                    <h3>Latest reports online</h3>
+                    <p>Forget about Exсel. Get detailed reports in two clicks.</p>
+
+                  
+                </div>
+
+          
+            </div>
+
+
+        </section>
+             
+       
+
+              <section class="clients" id="clients">
+                     
+                <h1 class="heading">Our<span>Clients</span></h1>
+                 
+                <div class="swiper clients-slider">
+    
+                    <div class="swiper-wrapper">
+    
+                        <div class="swiper-slide slide" >
+    
+                             <img src="images/coca-cola.png" alt="image">
+                           
+    
+                        </div>
+    
+                        <div class="swiper-slide slide" >
+    
+                            <img src="images/pepsi.png" alt="image">
+                           
+    
+                       </div>
+    
+                       <div class="swiper-slide slide" >
+    
+                        <img src="images/artel.svg" alt="image">
+                        
+    
+                   </div>
+    
+                   <div class="swiper-slide slide" >
+    
+                    <img src="images/sherin.svg" alt="image">
+                   
+    
+               </div>
+    
+               <div class="swiper-slide slide" >
+    
+                <img src="images/samsung.svg" alt="image">
+               
+
+           </div>
+ 
+           <div class="swiper-slide slide" >
+    
+            <img src="images/ums.svg" alt="image">
+           
+
+       </div>
+
+       <div class="swiper-slide slide" >
+    
+        <img src="images/akfa1.png" alt="image">
+       
+
+   </div>
+
+               
+    
+       </div>
+
+       
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+                   
+    
+                    </div>
+    
+                </div>
+    
+            </section>]
+
+  
+            <section class="review" id="review">
+
+                <h1 class="heading"><span>Reviews</span></h1>
+
+                 <div class="swiper review-slider">
+                     <div class="swiper-wrapper">
+                         <div class="swiper-slide box">
+                             <img src="images/elton.png" alt="">
+                             <h3>Elton</h3>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
+                             <p>Senior operator <a href="#">LLP"Azamat"(Kazakhstan)</a></p>
+                             
+
+                         </div>
+
+                         <div class="swiper-slide box">
+                            <img src="images/elton.png" alt="">
+                            <h3>Elton</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
+                            <p>Commercial Director <a href="#">LLP"Profit Trade"(Kazakhstan)</a></p>
+                           
+
+                        </div>
+
+                        <div class="swiper-slide box">
+                            <img src="images/elton.png" alt="">
+                            <h3>Elton</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
+                            <p>Regional Sales Manager <a href="#">AQUA ROSSALLP(Kazakhstan)</a></p>
+                           
+
+                        </div>
+
+                        <div class="swiper-slide box">
+                            <img src="images/elton.png" alt="">
+                            <h3>Elton</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
+                            <p>Head Sales Departament <a href="#">KulsayLLP(Kazakhstan)</a></p>
+                         
+
+                        </div>
+
+
+
+                        <div class="swiper-slide box">
+                            <img src="images/elton.png" alt="">
+                            <h3>Elton</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
+                            <p>Operator <a href="#">MUZBELLLP(Kazakhstan)</a></p>
+                           
+
+                        </div>
+
+                        <div class="swiper-slide box">
+                            <img src="images/elton.png" alt="">
+                            <h3>Elton</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
+                            <p>Director <a href="#">Analyst(Kazakhstan)</a></p>
+                         
+
+                        </div>
+                     </div>
+                     <div class="swiper-button-next"></div>
+                     <div class="swiper-button-prev"></div>
+                 </div>
+
+
+            </section>
+
+
+
+
+
+
+   <div class="m"></div>
+
+     
+      
+
+
+        
+
+
+
+      
+         
+  
+  
+
+
+    
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custome js file link  -->
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
