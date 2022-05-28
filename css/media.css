@@ -29,6 +29,7 @@
         top: 100%;
         right: 0;
         left: 0;
+        display: inline-block;
         background: rgb(222, 222, 222);
         border-top: rgba(255,255,255,.2);
         padding: 1rem 2rem;
@@ -56,6 +57,7 @@
 
     header .search-bar-container.active{
         transform: translateY(-48px);
+        margin-top: 40px;
         background: none;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
@@ -65,16 +67,29 @@
     html{
         font-size: 50%;
     }
+    
     header .icons i{
         font-size: 2.5rem;
         color: rgb(128, 42, 204);
         cursor: pointer;
         margin-right: 2rem;
     }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        display: inline-block;
+        background: rgb(222, 222, 222);
+        border-top: rgba(255,255,255,.2);
+        padding: 1rem 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
 
     header .search-bar-container.active{
         transform: translateY(-48px);
         background: none;
+        margin-top: 40px;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
@@ -91,8 +106,10 @@
         justify-content: center;
     }
     .login-form-container.active{
+        width: 100%;
         top: 0;
     }
+
 }
 
 /* @media (max-width:350px){
