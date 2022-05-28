@@ -61,6 +61,45 @@
         background: none;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
+
+    .about-img{
+        margin-top: -27px;
+    }
+    .text-p p{
+      margin-left: -200px;    
+    }
+
+    .about-home-text{
+        padding: 0 30px;
+    }
+
+    .about-company h2{
+       margin-left: -185px;
+    }
+
+    .about-company p{
+        margin-left: -185px;
+    }
+
+    .blog-text {
+        margin: 0 60px;
+        margin-top: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-h2 h2{
+        font-size: 42px;
+        font-weight: 800;
+        margin-left: 59px;
+        margin-top: 50px;
+        color: #4B4B4D;
+    }
+
+    .blog-text-p{
+        margin-left: 59px;
+    }
 }
 
 @media (max-width:450px){
@@ -108,6 +147,10 @@
     .login-form-container.active{
         width: 100%;
         top: 0;
+    }
+
+    .Benefits-container .icons-container{
+        margin: 2px 2px     ;
     }
 
 }
