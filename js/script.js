@@ -11,6 +11,11 @@ let perloader = document.querySelector(".bg_loader");
 function myLoader() {
   perloader.style.display = "none";
 }
+// var loader = document.getElementById("preloader");
+
+// window.addEventListener("load", function(){
+//   loader.style.display = "none";2
+// })
 
 window.onscroll = () => {
   searchBtn.classList.remove("fa-times");
