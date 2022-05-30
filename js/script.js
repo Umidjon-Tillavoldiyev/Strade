@@ -180,3 +180,15 @@ scrollBtn.addEventListener("click", () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 });
+
+
+// faq js starts
+
+const questions = document.querySelectorAll(".question-answer");
+
+questions.forEach(function(question) {
+  const faq = question.querySelector('.question-btn');
+  faq.addEventListener("click",function(){
+    question.classList.toggle("show-text");
+  });
+});

@@ -16,8 +16,24 @@
      .about-img img{
         margin-top: 90px;
      }
+     .r-container{
+        position: relative;
+        /* background: #fff; */
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        width: 90rem;
+        filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+    }
+    .faq-text-p{
+        font-size: 1.1rem;
+        margin-left: 58px;
+        color: #4B4B4D;
+        font-weight: 500;
+    }
 
-     .accordion{
+     .Accordion{
          width: 920px;
          height: 0;
          display: flex;
@@ -27,10 +43,12 @@
          position: relative;
          width: 420px;
          top: 88px;
+         padding: 0 25px;
      }
 
      .question-answer{
          width: 380px;
+         padding: 0 15px;
      }
 
      .content-accordion{
@@ -41,6 +59,15 @@
          margin-top: 50px;
          font-size: 3rem;
      }
+
+     
+.Accordion{
+    position: relative;
+    margin-left: 100px;
+    display: inline;
+    width: 920px;
+    height: 0;
+}
     
 }
 

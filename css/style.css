@@ -906,7 +906,6 @@ footer ul li a{
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    width: 100vh;
     
 }
 .r-container{
@@ -915,33 +914,46 @@ footer ul li a{
     margin-top: 50px;
     margin-bottom: 30px;
     border-radius: 10px;
+    width: 90rem;
     filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+}
+
+.faq-text-p{
+    margin-left: 240px;
+    font-size: 12px;
+    color: #4B4B4D;
+    font-weight: 500;
 }
 
 .Accordion{
     position: relative;
     width: 350px;
     margin-left: 40px;
+    display: flex;
 }
 
 .content-accordion{
+
     margin-top: 35px;
     margin-right: 50px;
 }
 
 .question{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items:center ;
+    width: 320px;
 }
 
 .accordion-img{
     position: relative;
-    width: 320px;
+    width: 380px;
 }
 
 .Title{
-    margin-top: 20px;
-    font-size: 2rem;
+    margin-top: 50px;
+    font-size: 3rem;
+    padding-bottom: 30px;
     text-align: center;
     font-weight: 800;
     color: #000;
@@ -950,7 +962,8 @@ footer ul li a{
 .title-question{
     margin: 1.4rem 0;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 800;
+    padding: 1rem 1rem;
     color: #000;
 }
 
@@ -969,6 +982,19 @@ footer ul li a{
     font-size: 1.2rem;
     line-height: 1.8;
     display: none;
+    font-weight: 800;
+}
+
+.show-text .answer{
+    display: block;
+}
+
+.show-text .up-icon{
+    display: inline;
+}
+
+.show-text .down-icon{
+   display: none;
 }
 
 .question-answer{
@@ -976,6 +1002,77 @@ footer ul li a{
     border-bottom: 1px solid #e8e8e8;
 }
 
+/* Contact syle strats */
+.contact-wrapper{
+    background: linear-gradient(#0e3959 0%, #0e3959 20%, #03a9f5 30%, #03a9f5 100%);
+}
+
+
+/* .footer-m{
+    margin-top: 100px;
+} */
+
+.contactUs{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+
+.contactUs .contact-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.contactUs .contact-title h2{
+    color: #fff  ;
+    font-weight: 700;
+}
+
+.form{
+    grid-area: form;
+}
+
+.info{
+    grid-area: info;
+}
+
+.map{
+    grid-area: map;
+}
+
+.contact{
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,.15);
+}
+.contact-box{
+    position: relative;
+    display: grid;  
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid-gap: 20px;
+}
+
+ .contact h3{
+     color: #000;
+     font-weight: 500;
+     font-size: 1.4rem;
+     margin-bottom: 10px;
+ }
+
+ .formBox{
+     position: relative;
+     width: 100%;
+ }
+
+ .formBox .row50{
+     display: flex;
+ }
 
 
 
