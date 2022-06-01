@@ -68,7 +68,38 @@
     width: 920px;
     height: 0;
 }
-    
+    /* contact start  */
+    .contactUs{
+        padding: 20px;
+    }
+
+    .contact-box{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form"
+        "info";
+    }
+
+    .formBox .row50{
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .inputBox{
+        width: 100%;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+    .map{
+        margin-top: 54rem;
+    }
+    /* .contact-footer{
+        margin-top: 50rem;
+    } */
 }
 
 @media (max-width:768px){

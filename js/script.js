@@ -7,10 +7,17 @@ let menu = document.querySelector("#menu-bar");
 let navbar = document.querySelector(".navbar");
 let demoBtn = document.querySelectorAll("#demo-btn");
 let perloader = document.querySelector(".bg_loader");
+let Body = document.querySelector("Body")
+console.log(Body);
 
-function myLoader() {
+// function myLoader() {
+//   perloader.style.display = "none";
+// }
+setInterval( function myLoader() {
   perloader.style.display = "none";
-}
+  
+
+},5000)
 // var loader = document.getElementById("preloader");
 
 // window.addEventListener("load", function(){

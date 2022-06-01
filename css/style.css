@@ -38,7 +38,7 @@ body{
 }
 
 
-#preloader{
+#loader{
     background: #fff url(../images/loadingg.gif) no-repeat center center;
     height: 100vh;
     width: 100%;
@@ -48,11 +48,7 @@ body{
 }
 
 
-#preloader::before{
-    animation-duration: 10s;
-   animation-delay: 10s;
-}
-       
+    
 
 .bg_loader{
     position: fixed;
@@ -61,46 +57,7 @@ body{
     width: 100%;
     height: 100vh;
 }
-#loader{
-    border: 0 solid transparent;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: calc(50vh - 75px);
-    left: calc(50vw - 75px);
 
-}
-#loader::after,#loader::before{
-    content: "";
-    border: 1em solid #ff5733;
-    border-radius: 50%;
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: loader 2s linear infinite;
-    opacity: 0;
-
-}
-#loader::before{
-    animation-delay: .5s;
-
-}
-@keyframes loader {
-    0%{
-        transform: scale(0);
-        opacity: 0;
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        transform: scale(1);
-        opacity: 1;
-    }
-}
 section{
     padding: 2rem 9%;
 }
@@ -1003,14 +960,10 @@ footer ul li a{
 }
 
 /* Contact syle strats */
+
 .contact-wrapper{
-    background: linear-gradient(#0e3959 0%, #0e3959 20%, #03a9f5 30%, #03a9f5 100%);
+    box-sizing: border-box;
 }
-
-
-/* .footer-m{
-    margin-top: 100px;
-} */
 
 .contactUs{
     position: relative;
@@ -1026,7 +979,10 @@ footer ul li a{
 }
 
 .contactUs .contact-title h2{
-    color: #fff  ;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #000  ;
     font-weight: 700;
 }
 
@@ -1038,9 +994,6 @@ footer ul li a{
     grid-area: info;
 }
 
-.map{
-    grid-area: map;
-}
 
 .contact{
     padding: 40px;
@@ -1053,15 +1006,15 @@ footer ul li a{
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 5fr 4fr;
     grid-template-areas: 
-    "form info"
-    "form map";
+    "form info";
     grid-gap: 20px;
+    margin-bottom: -50rem;
 }
 
  .contact h3{
      color: #000;
-     font-weight: 500;
-     font-size: 1.4rem;
+     font-weight: 700;
+     font-size: 2em;
      margin-bottom: 10px;
  }
 
@@ -1072,7 +1025,127 @@ footer ul li a{
 
  .formBox .row50{
      display: flex;
+     gap: 10px;
  }
+
+
+ .inputBox{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 10px;
+     width: 50%;
+ }
+
+
+
+ .formBox .row100 .inputBox{
+     width: 100%;
+ }
+
+ .inputBox span{
+     color: var(--black);
+     margin-top: 10px;
+     margin-bottom: 5px;
+     font-weight: 500;
+     font-size: 1.5em;
+ }
+
+
+
+ .inputBox input{
+     padding: 10px;
+     font-size: 1.1rem;
+     outline: none;
+     border: 1px solid #333;
+ }
+
+ .inputBox textarea{
+    padding: 10px;
+    font-size: 1.1rem;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 220px;
+ }
+
+ .inputBox input[type="submit"]{
+     background: var(--orange);
+     color: #fff;
+     border: none;
+     font-size: 1.1em;
+     max-width: 120px;
+     font-weight: 5000;
+     cursor: pointer;
+     padding: 14px 15px;
+ }
+
+ .inputBox ::placeholder{
+     color: rgb(209, 189, 189);
+ }
+
+.info{
+    background: var(--black);
+}
+
+.info h3{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.info .infoBox div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info .infoBox div span{
+    min-width: 40px;
+    height: 40px;
+    color: var(--orange);
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info .infoBox div p{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.info .infoBox div a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
