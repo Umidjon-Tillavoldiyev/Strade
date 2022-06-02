@@ -10,8 +10,6 @@ let perloader = document.querySelector(".bg_loader");
 let Body = document.querySelector("Body")
 
 
-AOS.init();
-
 // function myLoader() {
 //   perloader.style.display = "none";
 // }
@@ -19,7 +17,7 @@ setInterval( function myLoader() {
   perloader.style.display = "none";
   
 
-},5000)
+},3000)
 // var loader = document.getElementById("preloader");
 
 // window.addEventListener("load", function(){

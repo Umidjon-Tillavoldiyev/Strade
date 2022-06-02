@@ -798,7 +798,7 @@ footer ul li a{
 }
 
 .blog-text-p p{
-    margin-left: 240px;
+    margin-left: 305px;
     font-size: 12px;
     color: #4B4B4D;
     font-weight: 500;
@@ -836,7 +836,7 @@ footer ul li a{
     text-align: center;
     background: rgba(0,0,0,.7);
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 .blog-box-container .blog-box:hover .contentt{
@@ -846,7 +846,7 @@ footer ul li a{
 
 
 .blog-box-container .blog-box .contentt h4{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--orange);
     margin-top: -3rem;
 }
