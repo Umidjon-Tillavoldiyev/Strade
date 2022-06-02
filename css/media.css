@@ -6,6 +6,26 @@
     .heading{
         font-size: 2.5rem;
     }
+
+    .blog-box-container .blog-box .contentt h4{
+        font-size: 2rem;
+    }
+    .blog-box-container .blog-box .contentt p{
+        font-size: 1.5rem;
+    }
+
+    .blog-text-p{
+        margin-left: -104px;
+    }
+
+    .blog-text{
+        margin-top: 80px;
+    }
+
+    .blog-h2{
+        margin-left: -90px;
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width:991px){
@@ -26,6 +46,19 @@
         width: 90rem;
         filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
     }
+    .blog-text-p{
+        margin-left: -65px;
+    }
+    .blog-text{
+        padding: 0 20rem;
+    }
+   
+      .blog-box-container .blog-box .contentt h4{
+          font-size: 2.5rem;
+      }
+      .blog-box-container .blog-box .contentt p{
+          font-size: 1.7rem;
+      }
     .faq-text-p{
         font-size: 1.1rem;
         margin-left: 58px;
@@ -164,27 +197,31 @@
         margin-left: -185px;
     }
 
-    .blog-text {
-        margin: 0 60px;
-        margin-top: 140px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
 
     .blog-h2 h2{
         font-size: 42px;
         font-weight: 800;
-        margin-left: 59px;
+        margin-left: 270px;
         margin-top: 50px;
         color: #4B4B4D;
     }
+    .blog-box{
+        width: 350px;
+    }
 
     .blog-text-p{
-        margin-left: 59px;
+        margin-left: -65px;
+    }
+    
+    .blog-box-container .blog-box .contentt h4{
+        font-size: 2rem;
+    }
+
+    .blog-box-container .blog-box .contentt p{
+        font-size: 1.5rem;
     }
 }
-
 @media (max-width:450px){
     html{
         font-size: 50%;
@@ -234,6 +271,34 @@
 
     .Benefits-container .icons-container{
         margin: 2px 2px     ;
+    }
+    .blog-text{
+        font-size: 10px;
+        width: 100%;
+         padding: 0 15px;
+    }
+       
+   
+   .blog-h2{
+       font-size: 30px;
+   }
+
+    .blog-text-p{
+        margin-left: -225px;
+    }
+    
+    .blog-box-container .blog-box .contentt h4{
+        font-size: .8rem;
+    }
+
+    .blog-box-container .blog-box .contentt p{
+        font-size: .5rem;
+    }
+
+    .blog-box .btn{
+        font-size: .5rem;
+        padding: 0 10px;
+        text-align: center;
     }
 
 }

@@ -27,6 +27,10 @@
    <link rel="stylesheet" href="OwlCarousel/assets/owl.carousel.min.css">
    <link rel="stylesheet" href="OwlCarousel/assets/owl.theme.default.min.css">
     </head>
+
+    <!-- aos  -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    
 <body onload="myLoader()">
     <!--Loader-->
@@ -61,7 +65,7 @@
             <a href="#solution">Solution</a>
             <a href="about.html">About</a>
             <a href="blog.html">Blog</a>
-            <a href="#reviews">Reviews</a>
+            <a href="review.html">Reviews</a>
             <a href="Faq.html">FAQ</a>
             <a href="contact.html">Contact</a>
         </nav>
@@ -96,7 +100,7 @@
 
     <!-- home section starts -->
 
-    <section class="home" id="home">
+    <section class="home"  id="home">
 
        
 
@@ -109,7 +113,7 @@
                     <div class="content">
                         <h3>Trade</h3>
                         <p>ERP system for automating&nbsp;the work of sales agents, sales, accounting, warehouse, logistics for the FMCG sector and more!</p>
-                        <a href="#" class="btn" id="demo-btn">Demo version</a>
+                        <a href="contact.html" class="btn" id="demo-btn">Demo version</a>
                     </div>
                     <div class="image">
                         <img src="images/Trade.webp" alt="">
@@ -122,7 +126,7 @@
                     <div class="content">
                         <h3>Pharm</h3>
                         <p>ERP system for automating&nbsp;the work of sales agents, sales, accounting, warehouse, logistics for the FMCG sector and more!</p>
-                        <a href="#" class="btn" id="demo-btn">Demo version</a>
+                        <a href="contact.html" class="btn" id="demo-btn">Demo version</a>
                     </div>
                     <div class="image">
                         <img src="images/pharm.jpg" alt="">
@@ -136,7 +140,7 @@
                     <div class="content">
                         <h3>Medical</h3>
                         <p>ERP system for automating&nbsp;the work of sales agents, sales, accounting, warehouse, logistics for the FMCG sector and more!</p>
-                        <a href="#" class="btn" id="demo-btn">Demo version</a>
+                        <a href="contact.html" class="btn" id="demo-btn">Demo version</a>
                     </div>
                     <div class="image">
                         <img src="images/medical.webp" alt="">
@@ -150,7 +154,7 @@
                     <div class="content">
                         <h3>HR</h3>
                         <p>ERP system for automating&nbsp;the work of sales agents, sales, accounting, warehouse, logistics for the FMCG sector and more!</p>
-                        <a href="#" class="btn" id="demo-btn">Demo version</a>
+                        <a href="contact.html" class="btn" id="demo-btn">Demo version</a>
                     </div>
                     <div class="image">
                         <img src="images/hr.jpg" alt="">
@@ -159,17 +163,19 @@
                 </div>
 
             </div>
-
-            <div class="swiper-pagination"></div>
+<!-- 
+            <div class="swiper-pagination"></div> -->
 
         </div>
           </section>
-          <div class="heading2">
+
+          <div class="heading2" >
             <h1 class="heading"><span>Benefits</span></h1>
           </div>
           
-          <section class="Benefits-container">
-             
+          
+          <section class="Benefits-container" data-aos="zoom-in">
+           
               <div class="icons-container">
                   <i class="fas fa-landmark"></i>
                   <h3>10 years on the market</h3>
@@ -196,7 +202,7 @@
 
         <!-- products section starts -->
             
-        <section class="products" id="products">
+        <section class="products" id="products" data-aos="flip-left">
 
             <h1 class="heading"> <span>Products</span></h1>
 
@@ -251,7 +257,7 @@
           
         <!-- products preview section starts  -->
 
-        <section class="products-preview-container">
+        <section class="products-preview-container" data-aos="fade-up">
 
             <div class="product-preview" data-target="product-1">
                 <div  class="fas fa-times"></div>
@@ -263,7 +269,7 @@
                     <h3>Trade</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam asperiores officia totam at tempora autem perspiciatis ullam qui ducimus distinctio.</p>
 
-                    <a href="#" class="btnnn">Demo Version</a>
+                    <a href="contact.html" class="btnnn">Demo Version</a>
                     
                 </div>
 
@@ -280,7 +286,7 @@
                     <h3>Pharm</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam asperiores officia totam at tempora autem perspiciatis ullam qui ducimus distinctio.</p>
 
-                    <a href="#" class="btnnn">Demo Version</a>
+                    <a href="contact.html" class="btnnn">Demo Version</a>
                     
                 </div>
 
@@ -298,7 +304,7 @@
                     <h3>Medical</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam asperiores officia totam at tempora autem perspiciatis ullam qui ducimus distinctio.</p>
 
-                    <a href="#" class="btnnn">Demo Version</a>
+                    <a href="contact.html" class="btnnn">Demo Version</a>
                     
                 </div>
 
@@ -316,7 +322,7 @@
                     <h3>HR</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam asperiores officia totam at tempora autem perspiciatis ullam qui ducimus distinctio.</p>
 
-                    <a href="#" class="btnnn">Demo Version</a>
+                    <a href="contact.html" class="btnnn">Demo Version</a>
                     
                 </div>
 
@@ -329,7 +335,7 @@
 
         <!-- Solution section -->
 
-        <section class="solution" id="solution">
+        <section class="solution" id="solution" data-aos="fade-up">
 
             <h1 class="heading"><span>capabilities</span></h1>
 
@@ -386,11 +392,11 @@
 
         </section>
              
-        <h1 class="heading">Our<span>Clients</span></h1>
+        
        
-              <section class="clients" id="clients">
+              <section class="clients" id="clients" data-aos="fade-up">
                      
-         
+                <h1 class="heading">Our<span>Clients</span></h1>    
                  
                 <div class="swiper clients-slider">
     
@@ -450,8 +456,8 @@
        </div>
 
        
-       <div class="swiper-button-next"></div>
-       <div class="swiper-button-prev"></div>
+       <!-- <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div> -->
                    
     
                     </div>
@@ -461,14 +467,14 @@
             </section>
 
   
-            <section class="review" id="review">
+            <section class="review" id="review"  data-aos="fade-up">
 
                 <h1 class="heading"><span>Reviews</span></h1>
 
                  <div class="swiper review-slider">
                      <div class="swiper-wrapper">
                          <div class="swiper-slide box">
-                             <img src="images/elton.png" alt="">
+                             <img src="images/Elton.jpg" alt="">
                              <h3>Elton</h3>
                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
                              <p>Senior operator <a href="#">LLP"Azamat"(Kazakhstan)</a></p>
@@ -477,8 +483,8 @@
                          </div>
 
                          <div class="swiper-slide box">
-                            <img src="images/elton.png" alt="">
-                            <h3>Elton</h3>
+                            <img src="images/r2.jpg"  alt="">
+                            <h3>John</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
                             <p>Commercial Director <a href="#">LLP"Profit Trade"(Kazakhstan)</a></p>
                            
@@ -486,8 +492,8 @@
                         </div>
 
                         <div class="swiper-slide box">
-                            <img src="images/elton.png" alt="">
-                            <h3>Elton</h3>
+                            <img src="images/r4.jpg" alt="">
+                            <h3>Jessica</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
                             <p>Regional Sales Manager <a href="#">AQUA ROSSALLP(Kazakhstan)</a></p>
                            
@@ -495,8 +501,8 @@
                         </div>
 
                         <div class="swiper-slide box">
-                            <img src="images/elton.png" alt="">
-                            <h3>Elton</h3>
+                            <img src="images/r3.jpg" alt="">
+                            <h3>Martin</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
                             <p>Head Sales Departament <a href="#">KulsayLLP(Kazakhstan)</a></p>
                          
@@ -506,8 +512,8 @@
 
 
                         <div class="swiper-slide box">
-                            <img src="images/elton.png" alt="">
-                            <h3>Elton</h3>
+                            <img src="images/r5.png" alt="">
+                            <h3>Park Ji Sung</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
                             <p>Operator <a href="#">MUZBELLLP(Kazakhstan)</a></p>
                            
@@ -515,8 +521,8 @@
                         </div>
 
                         <div class="swiper-slide box">
-                            <img src="images/elton.png" alt="">
-                            <h3>Elton</h3>
+                            <img src="images/r6.jpg" alt="">
+                            <h3>Alan</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum officia vel veniam! Qui quisquam rem velit minima. Sunt, iusto.</p>
                             <p>Director <a href="#">Analyst(Kazakhstan)</a></p>
                          
@@ -531,7 +537,7 @@
             </section>
 
 
-            <div class="">
+            <div class=""  data-aos="fade-up">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.525501192644!2d69.28454511521119!3d41.34093030683713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b534175ed31%3A0x52a8f9d9414a2ad8!2sTUIT!5e0!3m2!1sen!2s!4v1653729368269!5m2!1sen!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
  
@@ -654,6 +660,7 @@
 
 
 
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
    
   

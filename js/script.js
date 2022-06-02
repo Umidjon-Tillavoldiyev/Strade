@@ -8,7 +8,9 @@ let navbar = document.querySelector(".navbar");
 let demoBtn = document.querySelectorAll("#demo-btn");
 let perloader = document.querySelector(".bg_loader");
 let Body = document.querySelector("Body")
-console.log(Body);
+
+
+AOS.init();
 
 // function myLoader() {
 //   perloader.style.display = "none";
@@ -189,13 +191,5 @@ scrollBtn.addEventListener("click", () => {
 });
 
 
-// faq js starts
 
-const questions = document.querySelectorAll(".question-answer");
 
-questions.forEach(function(question) {
-  const faq = question.querySelector('.question-btn');
-  faq.addEventListener("click",function(){
-    question.classList.toggle("show-text");
-  });
-});

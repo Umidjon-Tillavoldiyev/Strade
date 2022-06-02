@@ -857,6 +857,54 @@ footer ul li a{
     padding: .5rem 0;
 }
 
+
+/* review starts */
+.review{
+    padding-bottom: 3rem;
+}
+
+.review .imagee{
+    padding: 3rem;
+}
+
+.review .imagee img {
+    height: 40rem;
+    object-fit: cover;
+    box-shadow: 2.5rem 2.5rem 0 1rem var(--orange);
+}
+
+.review .infoo{
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.review .infoo h2{
+    color: var(--orange);
+    font-size: 3rem;
+}
+
+.review .infoo p{
+  font-size: 1.4rem;
+  color: #444;
+  margin: 2rem 0;
+}
+
+.review .infoo .icons a{
+   font-size: 2rem;
+   height: 4rem;
+   width: 4rem;
+   line-height: 4rem;
+   text-align: center;
+   background: #333;
+   color: #fff;
+   border-radius: .5rem;
+   margin-right: 1rem;
+   text-decoration: none;
+}
+
+.review .infoo .icons a:hover{
+    background:var(--orange) ;
+}
 /* FAQ sytle ends  */
 .Faq-container{
     font-family: 'Poppins',sans-serif;
