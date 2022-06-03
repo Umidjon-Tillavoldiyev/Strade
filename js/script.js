@@ -18,11 +18,7 @@ setInterval( function myLoader() {
   
 
 },3000)
-// var loader = document.getElementById("preloader");
 
-// window.addEventListener("load", function(){
-//   loader.style.display = "none";2
-// })
 
 window.onscroll = () => {
   searchBtn.classList.remove("fa-times");
@@ -46,10 +42,7 @@ formBtn.addEventListener("click", () => {
   loginForm.classList.add("active");
 });
 
-// demoBtn.addEventListener("click",()=>{
-//     // loginForm.classList.add('active');
-//     console.log("salom");
-// });
+
 demoBtn.forEach((item) => {
   item.addEventListener("click", () => {
     loginForm.classList.add("active");
@@ -93,8 +86,7 @@ document.querySelectorAll(".products .slide .btnn").forEach((detailBtn) => {
   };
 });
 
-document
-  .querySelectorAll(".products-preview-container .product-preview .fa-times")
+document.querySelectorAll(".products-preview-container .product-preview .fa-times")
   .forEach((close) => {
     close.onclick = () => {
       productPreviewContainer.style.display = "none";
@@ -103,12 +95,19 @@ document
       });
     };
   });
+  
+  let slideR = document.querySelectorAll(".slide")
 
+ 
 var swiper = new Swiper(".products-slider", {
   loop: true,
   spaceBetween: 20,
   grabCursor: true,
   centeredSlides: true,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
   breakpoints: {
     0: {
       slidesPerView: 1,
